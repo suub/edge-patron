@@ -95,6 +95,7 @@ public class PatronOkapiClient extends OkapiClient {
         null,
         responseHandler,
         exceptionHandler);
+    // TODO also call mod-users to add userdata to response.
   }
 
   public void renewItem(String patronId, String itemId,

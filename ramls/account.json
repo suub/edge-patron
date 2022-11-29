@@ -30,6 +30,11 @@
       "description": "The total number of requested items for the patron",
       "example": 10
     },
+    "userdata": {
+      "type": "object",
+      "description": "The patron's personal information",
+      "$ref": "userdata.json"
+    },
     "charges": {
       "type": "array",
       "description": "A list of the patron's charges and fines",
